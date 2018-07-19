@@ -6,9 +6,6 @@ SpellCaster::SpellCaster(const std::string& name, std::string type_spellcaster)
 		this->maxMana = mana;
 	}
 SpellCaster::~SpellCaster() {
-	// for ( Spell* s : spellbook ) {
-	// 	delete s;
-	// }
 }
 
 int SpellCaster::getMana() {
